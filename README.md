@@ -25,9 +25,8 @@ Most history graphs are flat timelines that get harder to read as more days are 
 
 1. Open HACS in your Home Assistant.
 2. Click the three dots in the top right corner and select **Custom repositories**.
-3. Add your GitHub repository URL, select category **Lovelace**, and click **Add**.
-4. Find **Circular History Card** in HACS and click **Download**.
-*(HACS will automatically add the resource for you).*
+3. Paste your GitHub repository URL, select category **Dashboard**, and click **Add**.
+4. Find **Circular History Card** in HACS, download it, and refresh your browser.
 
 ### Manual
 
