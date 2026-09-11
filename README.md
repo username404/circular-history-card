@@ -21,20 +21,20 @@ Most history graphs are flat timelines that get harder to read as more days are 
 
 ## Installation
 
-### HACS
+### HACS (Recommended)
 
-1. In HACS, add this repository as a **Custom repository** with category **Dashboard**.
-2. Download **Circular History Card**.
-3. Add the dashboard resource as a **JavaScript Module**:
-
-`/hacsfiles/circular-history-card/circular-history-card.js`
+1. Open HACS in your Home Assistant.
+2. Click the three dots in the top right corner and select **Custom repositories**.
+3. Add your GitHub repository URL, select category **Lovelace**, and click **Add**.
+4. Find **Circular History Card** in HACS and click **Download**.
+*(HACS will automatically add the resource for you).*
 
 ### Manual
 
-1. Copy `circular-history-card.js` to `/config/www/`.
-2. In **Settings → Dashboards → Resources**, add:
+1. Copy `circular-history-card.js` to your `/config/www/` folder.
+2. Go to **Settings → Dashboards → Resources** and add:
    `/local/circular-history-card.js` as a **JavaScript Module**.
-3. Hard-refresh the browser.
+3. Hard-refresh your browser.
 
 ## Configuration
 
