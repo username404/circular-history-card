@@ -1,5 +1,8 @@
 # circular_history_card
 A 24-hour polar history card for Home Assistant sensors.
+
+![Вигляд картки](Screenshot%202026-08-04%20160645.png)
+
 # Circular History Card for Home Assistant
 
 A 24-hour polar clock for your sensor history — see the daily rhythm at a glance.
